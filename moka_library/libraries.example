@@ -1,0 +1,35 @@
+#-----------------------------------------------------------------------------
+# 
+# Configure Moka dependences libraries
+#
+# Note: only specify absolute paths
+#
+#------------------------------------------------------------------------------
+
+# Directory where Boost headers are located
+BOOST_INCLUDES = /usr/include
+
+# The location of the Boost libraries
+BOOST_LIBRARIES = /usr/lib
+
+# The Armadillo include directory
+ARMADILLO_INCLUDES = /usr/include
+
+# Directory with libarmadillo.so
+ARMADILLO_LIBRARIES = /usr/lib
+
+# The OpenBabel include directory
+OPENBABEL_INCLUDES = /usr/include/openbabel-2.0
+
+# The OpenBabel libraries path
+OPENBABEL_LIBRARIES = /usr/lib
+
+# Include path of the Mlpack library 
+MLPACK_INCLUDES = /usr/local/include
+
+# Location of the Mlpack library 
+MLPACK_LIBRARIES = /usr/local/lib
+
+# The LibXml2 include directory
+LIBXML2_INCLUDES = /usr/include/libxml2
+

@@ -1,0 +1,43 @@
+BUILD
+=====
+
+This document gives a basic overview of the building procedure.
+
+Requirements
+============
+
+ -- moka_library
+ -- qt 4.8 or later
+ -- boost 1.47.0 or later (needed by moka_library)
+ -- armadillo 2.4.2 or later (needed by moka_library)
+ -- openbabel 2.3.1 or later (needed by moka_library)
+ -- mlpack 1.0.1 (needed by moka_library)
+
+How To Build
+============
+
+1. Install all the necessary libraries (see above).
+
+2. Make your own file libraries:
+   
+   cp libraries.example libraries
+
+3. Edit the file libraries with paths of libraries installed in step 1.
+
+4. Make and enter into directory build and run qmake:
+   
+   mkdir build
+   cd build
+   qmake ../src/moka_tool.pro -r -spec linux-g++
+   
+5. Compile:
+   
+   make
+
+6. Check inside directory bin if moka-console has been created.
+
+7. Run moka:
+   
+   ./bin/moka
+   
+   you can test moka by loading examples into the examples directory

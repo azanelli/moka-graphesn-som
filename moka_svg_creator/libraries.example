@@ -1,0 +1,43 @@
+#--------------------------------------
+# 
+# Configure Moka dependences libraries
+#
+#
+# REMEMBER: only specify absolute paths
+#
+#--------------------------------------
+
+# Directory where moka_library headers are located
+MOKA_INCLUDES = /home/andrea/Desktop/Moka/versions/1.0.2a/moka_library/src
+
+# Directory with libmoka.a 
+MOKA_LIBRARY = /home/andrea/Desktop/Moka/versions/1.0.2a/moka_library/build
+
+# Directory with debug version of libmoka.a (optional)
+MOKA_DEBUG_LIBRARY = /home/andrea/Desktop/Moka/versions/1.0.2a/moka_library/debug
+
+# Directory where Boost headers are located
+BOOST_INCLUDES = /usr/include
+
+# The location of the Boost libraries
+BOOST_LIBRARIES = /usr/lib
+
+# Directory with libarmadillo.so
+ARMADILLO_LIBRARIES = /usr/lib
+
+# The OpenBabel include directory
+OPENBABEL_INCLUDES = /usr/include/openbabel-2.0
+
+# The OpenBabel libraries path
+OPENBABEL_LIBRARIES = /usr/lib
+
+# Location of the Mlpack library 
+MLPACK_LIBRARIES = /usr/local/lib
+
+# The LibXml2 include directory
+LIBXML2_INCLUDES = /usr/include/libxml2
+
+# Other libraries location: you can specify paths for other libraries in
+# case of shared libraries not found at compile time.
+# OTHER_LIBRARIES_PATH = /var/lib/gcc/
+

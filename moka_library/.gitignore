@@ -1,0 +1,10 @@
+/bin/*
+!/bin/.gitkeep
+
+/build/*
+!/build/Makefile
+
+*.user
+*.o
+
+libraries

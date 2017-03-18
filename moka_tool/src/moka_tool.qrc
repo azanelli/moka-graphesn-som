@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/system-run-32x32.png</file>
+        <file>images/document-open-32x32.png</file>
+        <file>images/application-exit-32x32.png</file>
+        <file>images/moka-logo-256x256.png</file>
+        <file>images/zoom-in-32x32.png</file>
+        <file>images/zoom-out-32x32.png</file>
+        <file>images/table-blue-32x32.png</file>
+        <file>images/window-close-24x24.png</file>
+        <file>images/map-32x32.png</file>
+        <file>images/molecule.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+Aromatic_alogens ALI-AL [C][Br,Cl,I,F]
+Aliphatic_alogens ARO-AL [c][Br,Cl,I,F]
+
+Aromatic_alogens_(Cl) ALI-Cl [C][Cl]
+Aliphatic_alogens_(Cl) ARO-Cl [c][Cl]
+
